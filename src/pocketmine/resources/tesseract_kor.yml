@@ -47,7 +47,7 @@ player:
  #플레이어들이 참여했을때 크래시가 발생하는 경우, 이 값을 10 이하로 설정하세요. 비활성화=-1
  chunk-radius: -1
  
- check-movement: true
+ check-movement: false
 
 nether:
  #지옥이 허용된 경우 고르세요. 지옥 레벨이 자동으로 생성됩니다.
@@ -85,18 +85,6 @@ enchantment:
  #만약 이 옵션이 false인 경우, 서버는 랜덤 카운트를 사용할 것 입니다 (0~15)
  count-bookshelf: false
 
-redstone:
- ################################################
- ######레드스톤 시스템이 허용된 경우 고르세요#######
- ################################################
- #만약 true가 아닌 경우 레드스톤이 작동하지 않습니다#
- ################################################
- enable: false
- #주파수 펄스를 허용하는 경우 고르세요
- frequency-pulse: false
- #펄스 주파수 설정, 기본: 1초
- pulse-frequency: 1
-
 dserver:
  #모든 멀티 (다중) 서버의 수 통합
  enable: false
@@ -125,4 +113,4 @@ dserver:
 
 inventory:
  #모루와 관련된 문제가 있는 경우 true로 설정하세요. 인벤토리 처리를 vanila fashion (기본 방식)으로 치트 방지나 확인 없이 진행합니다.
- allow-cheats: true
+ allow-cheats: false
